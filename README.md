@@ -1,3 +1,4 @@
+# Screenshot
 #<img width="1212" height="1006" alt="Screenshot 2026-04-10 053521" src="https://github.com/user-attachments/assets/74761d5f-776e-4e70-adca-794469ffeb2b" />
 <img width="525" height="898" alt="Screenshot 2026-04-10 053504" src="https://github.com/user-attachments/assets/5f77c57e-40b2-471e-b323-82e680c454b1" />
 <img width="489" height="916" alt="Screenshot 2026-04-10 053451" src="https://github.com/user-attachments/assets/54ea7d47-7810-4aa5-895d-925a8e87adb2" />
@@ -25,10 +26,6 @@ AI Hidden Quote Generator is a web-based application that generates meaningful q
 * CSS
 * JavaScript
 
-# Screenshot
-
-(Add your project screenshot here)
-
 # Project Structure
 
 * `index.html`
@@ -48,4 +45,4 @@ This project enhances user engagement by combining emotional intelligence with i
 
 # Live Demo
 
-(Add GitHub Pages link here)
+(https://github.com/Subithira22/ai-hidden-quote-generators)
