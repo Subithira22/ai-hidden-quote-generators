@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Hidden Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>💔 AI Hidden Quote Generator</h1>
+
+    <!-- Quote Card -->
+    <div class="card" id="card">
+        <p id="quote">Your quote will appear here...</p>
+        <p id="meaning"></p>
+    </div>
+
+    <!-- Feeling Selection -->
+    <h3>Select Feeling</h3>
+    <div class="feelings">
+        <label><input type="checkbox" value="heartbroken"> 💔 Heartbroken</label><br>
+        <label><input type="checkbox" value="calm"> 😌 Calm</label><br>
+        <label><input type="checkbox" value="motivated"> 🔥 Motivated</label><br>
+        <label><input type="checkbox" value="lonely"> 😔 Lonely</label><br>
+        <label><input type="checkbox" value="happy"> 😄 Happy</label><br>
+        <label><input type="checkbox" value="inspired"> 🌟 Inspired</label><br>
+        <label><input type="checkbox" value="confused"> 😕 Confused</label><br>
+        <label><input type="checkbox" value="grateful"> 🙏 Grateful</label><br>
+        <label><input type="checkbox" value="excited"> 🤩 Excited</label><br>
+        <label><input type="checkbox" value="angry"> 😡 Angry</label><br>
+        <label><input type="checkbox" value="bored"> 😐 Bored</label><br>
+        <label><input type="checkbox" value="anxious"> 😰 Anxious</label><br>
+        <label><input type="checkbox" value="hopeful"> 🌈 Hopeful</label><br>
+        <label><input type="checkbox" value="proud"> 🏆 Proud</label><br>
+        <label><input type="checkbox" value="curious"> 🧐 Curious</label>
+    </div>
+
+    <br>
+
+    <!-- Buttons -->
+    <button onclick="generateAIQuote()">Generate AI Quote</button>
+    <button onclick="startVoice()">🎤 Speak Feeling</button>
+    <button onclick="downloadImage()">📸 Download Post</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
